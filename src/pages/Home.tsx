@@ -155,7 +155,7 @@ export default function Home() {
         {/* Book of The Day */}
         <section className="max-w-6xl mx-auto py-16 px-6" data-aos="fade-up">
           <h1 className="flex items-center gap-2 text-3xl font-bold mb-6 text-[#2B2C2D]">
-            <BookOpenIcon className="w-8 h-8 text-[#B58B5C]" /> Product List
+            <BookOpenIcon className="w-8 h-8 text-[#B58B5C]" /> Book of The Day
           </h1>
           {loadingBotd ? (
             <div className="h-60 bg-gray-200 rounded-lg animate-pulse" />
